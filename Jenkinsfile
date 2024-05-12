@@ -1,7 +1,7 @@
 node() {
     
     stage('Git Checkout'){
-        git 'https://github.com/rakenkou-github/Jenkins-Docker-CSS.git' 
+        git 'https://github.com/rakenkou-github/jenkins-docker-css.git' 
     }
     
     stage("docker build"){
